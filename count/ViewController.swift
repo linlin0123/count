@@ -30,7 +30,13 @@ class ViewController: UIViewController {
     @IBAction func minus() {
         number = number - 1
         label.text = String(number)
-
+    }
+    @IBAction func kakeru() {
+        number = number * 2
+        label.text = String(number)
+    }
+    @IBAction func waru() {
+        number = number / 2
     }
 
     
